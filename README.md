@@ -70,6 +70,12 @@ logging.debug("Get multiple values: %s", key_list)
 The values corresponding to the specified keys (id, view_count, view_counter, key1) are retrieved using the mget() method, which returns a list of values. A debug log message is written to display the retrieved values.
 
 Overall, the code showcases basic Redis operations like setting values, getting values, incrementing values, and performing multiple operations in a single call. The logging statements help track the flow of operations and provide visibility into the data manipulation.
+- ### read_redis.py
+Overall, this code demonstrates a typical pattern for working with Redis. It sets up logging configuration, establishes a connection with a Redis server, defines functions for retrieving and processing data, and then retrieves and prints data from two different topics stored in the Redis server.
+
+- ### redis.py
+In summary, the code showcases basic Redis operations such as setting values, retrieving values, incrementing values, and performing multiple operations in a single call using the mset() and mget() methods.
+
 ## Contributing
 If you would like to contribute to Redis, please follow these guidelines:
 
